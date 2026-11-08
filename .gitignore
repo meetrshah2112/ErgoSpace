@@ -1,0 +1,64 @@
+# ---------- Python / Django ----------
+__pycache__/
+*.py[cod]
+*.pyo
+*.log
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment variables (keep only the example)
+.env
+.env.*
+!.env.example
+
+# Databases
+*.sqlite3
+*.db
+
+# Django generated / uploaded files
+backend/staticfiles/
+staticfiles/
+backend/media/*
+!backend/media/.gitkeep
+
+# Certificates and private keys
+*.pem
+*.key
+*.p12
+
+# ---------- Flutter / Dart ----------
+frontend/build/
+frontend/.dart_tool/
+frontend/.flutter-plugins
+frontend/.flutter-plugins-dependencies
+frontend/.packages
+frontend/.metadata
+frontend/*.iml
+
+# Generated platform folders (recreated by: flutter create --platforms android .)
+frontend/android/
+frontend/ios/
+frontend/web/
+frontend/windows/
+frontend/linux/
+frontend/macos/
+
+# Android signing and local files (never commit)
+*.jks
+*.keystore
+key.properties
+local.properties
+
+# ---------- IDE and OS ----------
+.vscode/
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
