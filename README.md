@@ -132,4 +132,4 @@ Secrets live in `backend/.env`, which is git-ignored. Never commit `.env`, `*.pe
 
 ## Author
 
-Built by Meet. Contributions and feedback are welcome.
+Built by Meet Shah. Contributions and feedback are welcome.
